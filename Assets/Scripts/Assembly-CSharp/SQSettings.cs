@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using System.IO;
-using System.Runtime.InteropServices;
 using MiniJSON;
 using UnityEngine;
 
@@ -112,15 +111,6 @@ public class SQSettings
 	private SQSettings()
 	{
 	}
-
-	[DllImport("__Internal")]
-	private static extern string getBundleIdentifier();
-
-	[DllImport("__Internal")]
-	private static extern string getCFBundleVersion();
-
-	[DllImport("__Internal")]
-	private static extern string getCFBundleShortVersion();
 
 	private static string getJsonPath(string filePath)
 	{
