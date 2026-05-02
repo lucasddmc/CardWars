@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gitnexus --version)",
+      "Bash(gitnexus analyze *)",
+      "Bash(gitnexus status *)",
+      "Bash(grep -v \".meta$\")",
+      "Bash(git tag *)",
+      "Bash(git checkout *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
+    ]
+  }
+}
