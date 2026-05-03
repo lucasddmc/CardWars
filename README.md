@@ -24,8 +24,10 @@ It's CARD WARS!
 
 ## Download
 
-* **macOS** — coming soon (this fork)
+* [macOS (this fork)](https://github.com/lucasddmc/CardWars/releases/latest/download/CardWars-macOS.zip)
 * [Windows (from upstream)](https://github.com/shishkabob27/CardWars/releases/latest/download/CardWars-Windows.zip)
+
+> The macOS build is unsigned — on first launch macOS Gatekeeper blocks it. Open **System Settings → Privacy & Security → Open Anyway**, or right-click the `.app` → **Open**. Required only the first time.
 
 ## Images
 ![CardWars_r8d9H393Tp](https://i.imgur.com/cXUolY0.jpg)
